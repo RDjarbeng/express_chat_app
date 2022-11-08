@@ -5,13 +5,12 @@
   "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon app.js localhost 8080"
+    "start": "nodemon app.js localhost 3000"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "socket.io": "~4.5.0"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
